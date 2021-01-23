@@ -170,7 +170,14 @@ main {
   text-decoration: none;
   color: #658ec6;
   font-weight: 500;
-  opacity: 0.8;
+  opacity: 0.7;
+  transition: 250ms;
+}
+
+.nav-bar-link:hover {
+  color: #658ec6;
+  opacity: 1;
+  transition: 250ms;
 }
 
 a {
@@ -199,6 +206,7 @@ i {
   transition: 125ms;
   opacity: 0.3;
 }
+
 i:hover {
   color: black;
   transition: 125ms;
@@ -208,4 +216,18 @@ i:hover {
 
 .social {
   display: inline;
+}
+
+img {
+  width: 0px;
+  height: 0px;
+}
+
+/* .image {
+  width: 128px;
+} */
+
+.project:hover {
+  transform: scale(1.2);
+  transition: 125ms;
 }
